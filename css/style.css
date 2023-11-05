@@ -46,6 +46,11 @@ body {
     gap: 10px;
 }
 
+.contacts-header:hover,
+.contacts-header:focus {
+    color: var(--hover-color);
+}
+
 
 .icon-studio {
     width: 64px;
@@ -90,6 +95,13 @@ body {
     padding-bottom: 40px;
     padding-top: 70px;
 }
+
+.first-section .button-container .button-focus:hover,
+.first-section .button-container .button-focus:focus {
+    cursor: pointer;
+}
+
+
 
 .global-footer {
     padding: 50px 100px;
@@ -279,6 +291,13 @@ h1 {
     .contacts-header a {
         color: #757575;
     }
+
+    .contacts-header a:hover,
+    .contacts-header a:focus{
+        color: var(--hover-color);
+    }
+
+   
 
  .contacts-header > a.nav-link-current {
     color: var(--hover-color);
@@ -508,14 +527,37 @@ h1 {
     align-items: center;
     padding-left: 215px;
     padding-right: 215px;
+    color: rgba(175, 177, 184, 1);
     
  }
+
 
 
 
  .regular-container {
     padding-bottom: 60px;
  }
+
+ .regular-container .regular-customers-section .icons-container:hover,
+ .regular-container .regular-customers-section .icons-container:focus{
+    color: var(--hover-color);
+    cursor: pointer;
+ }
+
+.customers {
+    fill:rgba(175, 177, 184, 1);
+}
+
+.customers:hover,
+.customers:focus {
+    fill: var(--hover-color);
+}
+
+.icons-customers:hover,
+.icons-customers:focus {
+    fill:var(--hover-color)
+}
+
 
  .footer-icons h3 {
     color: var(--body-color);
@@ -547,6 +589,8 @@ h1 {
     margin-left: auto;
 
  }
+
+
 
  .hover-icons:hover,
  .hover-icons:focus {
@@ -580,8 +624,19 @@ h1 {
     background-color: rgba(47, 48, 58, 0.4);
 }
    
-   
-   
+
+
+.icons-header  .icon :hover {
+    fill:var(--hover-color);
+    cursor: pointer;
+}
+
+ .icon {
+    color: #757575;
+}
+
+
+
 
 
  
